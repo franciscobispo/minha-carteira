@@ -1,10 +1,10 @@
 import React from 'react'
 import { Container } from "./styles";
 
-const MainHeader: React.FC = () => {
+const MainHeader: React.FC = ({ children }) => {
     return (
         <Container>
-            <h1>MainHeader</h1>
+            {children}
         </Container>        
     )
 }
